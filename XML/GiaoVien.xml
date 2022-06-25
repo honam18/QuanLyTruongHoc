@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <GiaoVien>
+    <MaGiaoVien>GV1</MaGiaoVien>
+    <HoTen>Nguyễn Văn A</HoTen>
+    <NgaySinh>6/25/2022</NgaySinh>
+    <Lop>LTM1</Lop>
+  </GiaoVien>
+  <GiaoVien>
+    <MaGiaoVien>GV2</MaGiaoVien>
+    <HoTen>Nguyễn Văn b</HoTen>
+    <NgaySinh>6/25/2022</NgaySinh>
+    <Lop>LTM1</Lop>
+  </GiaoVien>
+  <GiaoVien>
+    <MaGiaoVien>GV3</MaGiaoVien>
+    <HoTen>Nguyễn Văn C</HoTen>
+    <NgaySinh>6/25/2022</NgaySinh>
+    <Lop>LTM1</Lop>
+  </GiaoVien>
+  <GiaoVien>
+    <MaGiaoVien>GV4</MaGiaoVien>
+    <HoTen>Nguyễn Văn D</HoTen>
+    <NgaySinh>6/25/2022</NgaySinh>
+    <Lop>LTM1</Lop>
+  </GiaoVien>
+  <GiaoVien>
+    <MaGiaoVien>GV5</MaGiaoVien>
+    <HoTen>Nguyễn Văn E</HoTen>
+    <NgaySinh>6/25/2022</NgaySinh>
+    <Lop>QTM</Lop>
+  </GiaoVien>
+</root>

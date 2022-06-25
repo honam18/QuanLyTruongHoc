@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Lop>
+    <MaLop>LTM1</MaLop>
+    <Khoa>Công nghệ thông tin</Khoa>
+    <SiSo>20</SiSo>
+  </Lop>
+  <Lop>
+    <MaLop>KLB1</MaLop>
+    <Khoa>Du lịch</Khoa>
+    <SiSo>12</SiSo>
+  </Lop>
+</root>

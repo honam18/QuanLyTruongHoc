@@ -1,0 +1,12 @@
+C:\Users\Nemsu\Workspace\TieuLuanXML\bin\Debug\TieuLuanXML.exe.config
+C:\Users\Nemsu\Workspace\TieuLuanXML\bin\Debug\TieuLuanXML.exe
+C:\Users\Nemsu\Workspace\TieuLuanXML\bin\Debug\TieuLuanXML.pdb
+C:\Users\Nemsu\Workspace\TieuLuanXML\obj\Debug\TieuLuanXML.Properties.Resources.resources
+C:\Users\Nemsu\Workspace\TieuLuanXML\obj\Debug\TieuLuanXML.Views.frmLop.resources
+C:\Users\Nemsu\Workspace\TieuLuanXML\obj\Debug\TieuLuanXML.Views.frmMain.resources
+C:\Users\Nemsu\Workspace\TieuLuanXML\obj\Debug\TieuLuanXML.Views.frmQLGV.resources
+C:\Users\Nemsu\Workspace\TieuLuanXML\obj\Debug\TieuLuanXML.Views.frmQLSV.resources
+C:\Users\Nemsu\Workspace\TieuLuanXML\obj\Debug\TieuLuanXML.csproj.GenerateResource.cache
+C:\Users\Nemsu\Workspace\TieuLuanXML\obj\Debug\TieuLuanXML.csproj.CoreCompileInputs.cache
+C:\Users\Nemsu\Workspace\TieuLuanXML\obj\Debug\TieuLuanXML.exe
+C:\Users\Nemsu\Workspace\TieuLuanXML\obj\Debug\TieuLuanXML.pdb

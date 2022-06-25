@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <SinhVien>
+    <MaSinhVien>20001235</MaSinhVien>
+    <HoTen>Hồ Hoàng Nam</HoTen>
+    <NgaySinh>6/25/2022</NgaySinh>
+    <Lop>LTM1</Lop>
+  </SinhVien>
+  <SinhVien>
+    <MaSinhVien>20001236</MaSinhVien>
+    <HoTen>Nguyễn Phan Trun</HoTen>
+    <NgaySinh>6/25/2022</NgaySinh>
+    <Lop>LTM2</Lop>
+  </SinhVien>
+  <SinhVien>
+    <MaSinhVien>20001237</MaSinhVien>
+    <HoTen>Khưu Trường Trịnh</HoTen>
+    <NgaySinh>6/25/2022</NgaySinh>
+    <Lop>QTM</Lop>
+  </SinhVien>
+  <SinhVien>
+    <MaSinhVien>1234556</MaSinhVien>
+    <HoTen>Lê Quí Long</HoTen>
+    <NgaySinh>6/25/2022</NgaySinh>
+    <Lop>LTM1</Lop>
+  </SinhVien>
+  <SinhVien>
+    <MaSinhVien>20001232</MaSinhVien>
+    <HoTen>Nguyễn Huỳnh Nhật Hoàng</HoTen>
+    <NgaySinh>6/25/2022</NgaySinh>
+    <Lop>LTM2</Lop>
+  </SinhVien>
+</root>

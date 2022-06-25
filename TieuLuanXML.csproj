@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED3FB122-DD20-4034-9E48-29E800F09282}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TieuLuanXML</RootNamespace>
+    <AssemblyName>TieuLuanXML</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\GiaoVien.cs" />
+    <Compile Include="Models\Lop.cs" />
+    <Compile Include="Models\SinhVien.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\frmLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmLop.Designer.cs">
+      <DependentUpon>frmLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmQLGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmQLGV.Designer.cs">
+      <DependentUpon>frmQLGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmQLSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmQLSV.Designer.cs">
+      <DependentUpon>frmQLSV.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\frmLop.resx">
+      <DependentUpon>frmLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmQLGV.resx">
+      <DependentUpon>frmQLGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmQLSV.resx">
+      <DependentUpon>frmQLSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Icons\about.ico" />
+    <Content Include="Icons\add.ico" />
+    <Content Include="Icons\back.ico" />
+    <Content Include="Icons\bill.ico" />
+    <Content Include="Icons\close.ico" />
+    <Content Include="Icons\component.ico" />
+    <Content Include="Icons\delete.ico" />
+    <Content Include="Icons\dollar.ico" />
+    <Content Include="Icons\exit.ico" />
+    <Content Include="Icons\find.ico" />
+    <Content Include="Icons\first.ico" />
+    <Content Include="Icons\forward.ico" />
+    <Content Include="Icons\help.ico" />
+    <Content Include="Icons\how-to.ico" />
+    <Content Include="Icons\last.ico" />
+    <Content Include="Icons\list.ico" />
+    <Content Include="Icons\male.ico" />
+    <Content Include="Icons\modify.ico" />
+    <Content Include="Icons\notes.ico" />
+    <Content Include="Icons\OK.ico" />
+    <Content Include="Icons\product.ico" />
+    <Content Include="Icons\report.ico" />
+    <Content Include="Icons\save.ico" />
+    <Content Include="Icons\search.ico" />
+    <Content Include="Icons\stop sign.ico" />
+    <Content Include="Icons\System.ico" />
+    <Content Include="Icons\turn off.ico" />
+    <Content Include="Icons\user group.ico" />
+    <Content Include="Icons\view.ico" />
+    <Content Include="XML\GiaoVien.xml" />
+    <Content Include="XML\Lop.xml" />
+    <Content Include="XML\SinhVien.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
